@@ -17,8 +17,7 @@ html, body, .wrapper {
   color: #6a6f72;
   background: #e7ecf0;
   font-family: 'Roboto', sans-serif;
-  width: 1600px;c feddddddddddddddddddddddddddddddcx
-  width: 1600px;c feddddddddddddddddddddddddddddddcx
+  width: 1600px;
 }
 
 i {
@@ -90,7 +89,7 @@ nav {
   ul.counter-number {
     display: flex;
     padding-left: 0;
-    list-style-type: none; /* удаление браузерных стилей*/
+    list-style-type: none; 
  }
 
  .counter-number > li {
@@ -217,7 +216,7 @@ div.web, p.joined, p.born, .gallery {
     margin-right: 10px;
 }
 
-.post-navigation {/*навигация центральной части*/
+.post-navigation {
     padding: 15px;
     margin: 5px 0;
     font-size: larger;
@@ -233,8 +232,6 @@ div.web, p.joined, p.born, .gallery {
     color: black;
 }
 
-/*общие*/
-
 .pin-tw, .tw-first, .tw-second, .to-follow {
     display: flex;
     background: white;
@@ -243,6 +240,7 @@ div.web, p.joined, p.born, .gallery {
 }
 
 /*левый блок с фото*/
+
 .pin-tw-left, .to-follow-left {
     width: 65px;
     margin-right: 10px;
@@ -329,7 +327,6 @@ p.name-date-name {
 
 .crssng {
     display: flex;
-    /*flex-grow: 2;*/
     justify-content: flex-end;
     margin-bottom: -25px;
     
@@ -398,7 +395,8 @@ margin-right: 5px;
     margin-top: 5px;
 }
 
-                            /*ПРАВАЯ БОКОВАЯ*/ 
+/*ASIDE*/ 
+
 .aside {
     width: 280px;
 }
@@ -468,7 +466,8 @@ margin-right: 5px;
     text-decoration: none;
 }
 
-                        /*aside buttom*/
+/*aside buttom*/
+
 .aside-buttom {
 background: white;
 height: 310px;
@@ -495,7 +494,8 @@ margin: 10px 0 10px 0;
     text-decoration: none;
     margin-bottom: 8px
 }
-                        /*footer*/
+
+/*footer*/
 
 .copyright:after{
     content: "\00A9";
